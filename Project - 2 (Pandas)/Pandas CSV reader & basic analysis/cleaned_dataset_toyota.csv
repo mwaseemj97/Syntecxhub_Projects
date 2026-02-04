@@ -1,0 +1,21 @@
+record_id,date,city,plant,vehicle_variant,shift,units_checked,defects_found,repair_hours,scrap_weight,inspection_team
+R01A,45658,Karachi,Karachi Plant,Corolla X,A,200,1,2,10,Team A
+R01B,45658,Lahore,Lahore Plant,Yaris,B,150,0,1,5,Team B
+R02A,45689,Karachi,Karachi Plant,Revo,A,300,2,3,15,Team A
+R02B,45689,Lahore,Lahore Plant,Corolla Altis,B,0,<built-in function any>,2,20,Team C
+R03A,45717,Karachi,Karachi Plant,Fortuner,A,600,3,12,300,Team A
+R03B,45717,Lahore,Lahore Plant,Yaris,B,100,5,1,0,Team B
+R04A,45748,Karachi,Karachi Plant,Corolla X,A,0,1,2,15,Team C
+R04B,45748,Karachi,Karachi Plant,Revo,B,200,2,3,15,Team A
+R05A,45778,Lahore,Lahore Plant,Corolla Altis,A,150,1,2,10,Team B
+R05B,45778,Karachi,Karachi Plant,Yaris,B,300,3,2,20,Team C
+R06A,45809,Karachi,Karachi Plant,Revo,A,100,0,1,5,Team A
+R06B,45809,Lahore,Lahore Plant,Corolla X,B,200,2,3,10,Team B
+R07A,45839,Karachi,Karachi Plant,Fortuner,A,300,3,12,300,Team C
+R07B,45839,Karachi,Karachi Plant,Yaris,B,150,0,1,10,Team A
+R08A,45870,Lahore,Lahore Plant,Corolla X,A,200,1,2,5,Team B
+R08B,45870,Karachi,Karachi Plant,Revo,B,300,2,3,15,Team C
+R09A,45901,Lahore,Lahore Plant,Yaris,A,500,1,2,20,Team A
+R09B,45901,Karachi,Karachi Plant,Corolla Altis,B,600,3,12,300,Team B
+R10A,45931,Lahore,Lahore Plant,Fortuner,A,150,0,1,5,Team C
+R10B,45931,Karachi,Karachi Plant,Revo,B,200,2,3,10,Team A
