@@ -1,0 +1,47 @@
+# Project 2: Pandas CSV Reader & Basic Analysis
+
+## Overview
+This project demonstrates how to perform basic data analysis using **Python** and **pandas**. The main goal is to read CSV or Excel files into a pandas DataFrame, inspect the data, perform basic analysis, filter and slice subsets, and save the results for further use.
+
+---
+
+## Features
+- Read CSV or Excel files into a pandas DataFrame.
+- Inspect the data:
+  - View first few rows (`head()`) and last few rows (`tail()`).
+  - Check data types of columns.
+- Compute summary statistics:
+  - Mean, median, minimum, maximum, and count for numerical columns.
+- Filter rows based on conditions.
+- Select specific columns and slice subsets of data.
+- Save filtered or processed data to CSV or Excel for later use.
+
+---
+
+## Technologies Used
+- Python 3.x
+- Pandas
+- Jupyter Notebook (optional)
+
+---
+
+## Example Usage
+```python
+import pandas as pd
+
+# Read CSV file
+df = pd.read_csv('data.csv')
+
+# Inspect the data
+print(df.head())
+print(df.tail())
+print(df.dtypes)
+
+# Compute summary statistics
+print(df.describe())
+
+# Filter rows and select columns
+filtered_df = df.loc[df['Age'] > 25, ['Name', 'Age', 'City']]
+
+# Save filtered results
+filtered_df.to_csv('filtered_data.csv', index=False)
